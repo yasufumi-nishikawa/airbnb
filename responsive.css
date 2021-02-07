@@ -1,0 +1,502 @@
+h4, h1 , p, h6{
+  margin-right: 10px !important;
+  margin-left: 10px !important;
+  padding-right: 5px !important;
+  padding-left: 5px !important;
+  letter-spacing: 0em;
+}
+
+/* container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+  padding-left: 0px;} */
+
+header {
+ display: none;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.4em;
+  letter-spacing: 0em;
+  padding: 0px;
+}
+
+h4 {
+  letter-spacing: 0em;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.container {
+  padding-left: 12px;
+}
+
+.jumbotron1 {
+  display: none;
+  width: 375px !important;
+} 
+
+.responsive-all {
+  display: block;
+  height: 276px;
+  width: 100%;
+}
+
+.resjumbotron { background:url(
+ image/13c2b211.jpg) no-repeat; background-size: cover;
+  position: relative;
+  }
+
+  .responsiveh5{
+    color: #484848; 
+    font-size: 18px;
+    margin-left: 25px !important;
+  }
+
+.responsive-h3 {
+  margin-top: 70px;
+  margin-left: 40px;
+  font-size: 34px;
+}
+.form-group1 {
+  width: 325px;
+  height:34px ;
+  margin-left:  25px !important;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.form-group2 {
+  margin: -5px auto !important;
+  width: 325px;
+  height:34px ;
+}
+
+.btn-2 {
+  width: 325px;
+  margin-left: 25px !important;
+}
+
+.row {
+  padding-left: 0px;
+  margin-right: 0px;
+}
+
+.miryoku {
+  padding-right: 0px;
+  margin-top: 300px;
+}
+
+.col-md-6 {
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+
+
+h1 {
+  font-size: 35px;
+  /* htmlにつけてたtext-centerをcssでの指定に変えたらレスポンシブ時にも指定できるようなった */
+  text-align: left;
+  margin-right: 0px;
+  padding-left: 0px;
+  margin-left: 0px !important;
+  padding-right: 60px;
+}
+
+
+h1::before {
+ content: '';
+  position: absolute;
+  left: 0px;
+  top: -20px;/*線の上下位置*/
+  display: inline-block;
+  width: 60px;/*線の長さ*/
+  height: 2px;/*線の太さ*/
+  -webkit-transform: translateX(-50%);
+  transform: translateX(10%);/*位置調整*/
+  background-color: rgb(169, 169, 169);/*線の色*/
+}
+
+.bigcheck {
+  margin-left: 5px;
+}
+
+
+.col-md-4 {
+  padding-right: 0px;
+  padding-left: 5px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  }
+
+.mittu {
+  letter-spacing: 0em;
+}
+
+.text-info {
+  margin-top: 10px;
+}
+
+.dennisimg {
+  margin-left: 17px;
+  width: 318px !important;
+  height: 300px;
+}
+
+.box2 {
+  order: 2;
+}
+
+.box1 {
+  order: 1;
+}
+
+.host {
+  margin-top: 0px;
+}
+
+.col-lg-6 {
+  padding-left: 0px;
+}
+
+.quo {
+  margin-left: 14px;
+}
+
+.h2 {
+  font-size: 18px;
+  text-align: left;
+  padding: 0px;
+  margin-right: 0px;
+  padding-right: 0rem;
+  margin-left: 14px !important;
+}
+
+.dennis {
+  margin-left: 14px !important;
+  padding-right: 0px;
+  font-size: 14px;
+}
+
+.btn-3{
+  width: 250px;
+  margin-top: 5px;
+  margin-left: 14px !important;
+}
+
+.col-lg-6 {
+  margin-top: -30px;
+}
+
+.shinrai {
+  font-size: 14.5px;
+  margin-top: -40px;
+  padding-right: 10px;
+  padding-left: 14px;
+}
+
+.mamoru {
+  margin-left: 0px !important;
+}
+
+.check {
+ margin-left: 0px;
+}
+
+.pl-0 {
+  margin-top: 20px;
+  margin-left: 0px;
+  padding-right: 0px;
+  text-align: left;
+}
+
+.bed {
+  margin-top: 30px;
+  margin-left: 14px;
+  width: 328px;
+  height: 300px;
+  padding: 0px;
+}
+
+.tessaue {
+  margin-bottom: 100px;
+}
+
+
+.tessaimg {
+  padding-left: 15px;
+  padding-right: 25px;
+  width: 500px;
+  height: 300px;
+}
+
+.tessaquo {
+  padding-left: 0px;
+  margin-left: 5px;
+}
+
+.tessa1 {
+  font-size: 16.5px;
+  text-align: left;
+  padding-left: 0px;
+  padding-right: 20px;
+  margin-left: -40px;
+}
+
+
+.tessa2 {
+  margin-left: -40px;
+  font-size: 14px;
+}
+
+.tessabtn {
+  width: 250px;
+  margin-left: 0px;
+  margin-bottom: -50px;
+}
+
+
+
+.airbnb {
+  margin-top: 70px;
+  margin-left: 3px !important;
+}
+
+.airbnb1 {
+  margin-left: 3px !important;
+}
+
+.hosting {
+  margin-left: 0px;
+  padding-left: 14px;
+  padding-right: 10px;
+}
+
+.hostp {
+  margin-left: 3px;
+}
+
+.kochira {
+  margin-left: 0px !important;
+}
+
+.yokuaru {
+  margin-bottom: 70px;
+}
+
+/* widthで幅指定したら下線のサイズの調整できた。 */
+.question {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  /* padding-right: 220px; */
+  font-size: 15px;
+  margin-left: 0px !important;
+  max-width: 300px;
+
+}
+
+.que2 {
+  margin-left: 0px;
+}
+
+/* ホスティングの詳細はこちら */
+.shousai {
+  font-size: 22px;
+  margin-top: 30px;
+ margin-left: 0px !important;
+  margin-bottom: -20px;
+  padding-right: 0px;
+}
+
+.responsivesannmai {
+  display: none;
+}
+
+.card {
+  padding: 0px;
+  padding-left: 0px !important;
+}
+
+.rescards {
+  margin-left: 30px !important;
+  margin-right: 50px !important;
+  padding-left: 0px !important;
+}
+
+.rescard {
+  display: block;
+  width: 315px;
+  height: 76px;
+  padding-left: 0px !important;
+}
+
+.no-gutters {
+ padding-left: 0px !important;
+}
+
+.rescard23 {
+  margin-top: 30px;
+}
+
+.resimgs {
+  padding-left: 0px !important;
+}
+
+.resimg {
+  width: 76px;
+  height: 74px;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.card-title, .card-text {
+  font-size: 14px;
+  margin: 0px;
+  padding-top: 10px;
+  color: #484848;
+}
+
+.card-title {
+  margin-left: -20px;
+}
+
+.card-text {
+  margin-left: -25px !important;
+}
+
+.col-8 {
+  height:76px;
+}
+
+.card-body {
+  padding: 0px;
+}
+
+.jumbotron2 {
+  width: 100% !important;
+  height: 375px;
+  padding: 0px !important;
+  margin-left: 0px;
+}
+
+
+.shueki {
+  width: 350px;
+  font-size: 35px;
+  text-align: left;
+  padding-top: 50px;
+  padding-left: 30px !important;
+  padding-right: 0px !important;
+  margin: 0 auto !important;
+}
+
+.btnlast {
+  margin-left: 40px !important;
+  width: 100px;
+  height: 40px;
+  font-size: 16px;
+  padding-top: 8px;
+
+}
+
+.foot {
+  text-align: left;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: -20px;
+  margin-top: 20px;
+}
+
+.bordertop {
+  border-top:solid 1px #DDDDDD;
+  width: 330px !important;
+}
+
+.bordert {
+  width: 330px;
+}
+
+.col-md-3 {
+  margin-bottom: 20px;
+  padding-top: 0px;
+}
+
+.saishou {
+  font-size: 12px;
+  padding-top: 20px;
+}
+
+.small {
+  font-size: 14px;
+  line-height: 2;
+}
+
+.katamari {
+  margin-left: 40px;
+  padding-left: 0px;
+  padding-right: 0px;
+  line-height: 1;
+}
+
+.br {
+  display: none;
+}
+
+/* .bordert {
+  width: 330px;
+} */
+
+.saigo {
+  margin-left: -40px;
+  margin-right: -40px;
+}
+
+.ressaigo {
+  display: inline;
+}
+
+.choiue {
+  letter-spacing: 5;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.list-inline {
+  text-align: left;
+}
+
+.fab {
+  display: none;
+}
+
+.futa {
+  display: none;
+}
+
+.futa2 {
+  display: none;
+}
+
+.reslastfooter {
+  padding-left: 10px !important;
+}
+
+.resfooter {
+  display: block;
+  font-size: 14px;
+  color: #484848; 
+  line-height: 1;
+  padding-left: 10px;
+}
+
+ul {
+  display: flex;
+}
+
+.jpy {
+  margin-left: -10px !important;
+}
+
+.jpjpy {
+  display: block;
+}
